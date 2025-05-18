@@ -8,7 +8,7 @@ const PORT = 5000
 app.use(express.json())
 app.use(cors())
 
-app.post("/api",function(req,res){
+app.get("/api",function(req,res){
     res.status(200).send("Welcome to Backend API")
 })
 
